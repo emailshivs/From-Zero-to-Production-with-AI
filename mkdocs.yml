@@ -98,6 +98,20 @@ nav:
       - 10 Versioning and Review: 00-editorial/10-versioning-review.md
       - 11 Glossary Standards: 00-editorial/11-glossary-standards.md
       - 12 Contribution Guide: 00-editorial/12-contribution-guide.md
+
+  - Learning System:
+      - 01 Learning Roadmap: 01-learning-system/01-learning-roadmap.md
+      - 02 Learning Paths: 01-learning-system/02-learning-paths.md
+      - 03 Course Dashboard: 01-learning-system/03-course-dashboard.md
+      - 04 Capstone Projects: 01-learning-system/04-capstone-projects.md
+      - 05 Certification Roadmap: 01-learning-system/05-certification-roadmap.md
+      - 06 Study Planner: 01-learning-system/06-study-planner.md
+      - 07 Instructor Guide: 01-learning-system/07-instructor-guide.md
+      - 08 Student Guide: 01-learning-system/08-student-guide.md
+      - 09 Progress Tracker: 01-learning-system/09-progress-tracker.md
+      - 10 Skills Matrix: 01-learning-system/10-skills-matrix.md
+
+
   - Getting Started:
       - Overview: getting-started/index.md
       - 0.1 Chapter 01: getting-started/chapter-01.md
