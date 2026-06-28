@@ -1,0 +1,219 @@
+site_name: From Zero to Production with AI
+site_description: A professional handbook for building, securing, and operating production-grade AI-assisted software systems.
+site_author: From Zero to Production with AI Contributors
+site_url: https://from-zero-to-production-with-ai.pages.dev/
+repo_name: From-Zero-to-Production-with-AI
+repo_url: https://github.com/your-org/From-Zero-to-Production-with-AI
+edit_uri: edit/main/docs/
+copyright: Copyright &copy; 2026 From Zero to Production with AI Contributors
+
+extra:
+  generator: false
+  version:
+    provider: mike
+    default: latest
+    alias: true
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-org/From-Zero-to-Production-with-AI
+      name: GitHub Repository
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/extra.js
+
+theme:
+  name: material
+  language: en
+  favicon: assets/images/favicon.svg
+  logo: assets/images/favicon.svg
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.path
+    - navigation.prune
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+
+plugins:
+  - search:
+      lang: en
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - social:
+      cards_layout_options:
+        background_color: "#1e293b"
+        color: "#ffffff"
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      title: On this page
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      use_pygments: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+nav:
+  - Home: index.md
+  - Editorial Standards:
+      - 01 Editorial Standards: 00-editorial/01-editorial-standards.md
+      - 02 Writing Style Guide: 00-editorial/02-writing-style-guide.md
+      - 03 Chapter Template: 00-editorial/03-chapter-template.md
+      - 04 Diagram Standards: 00-editorial/04-diagram-standards.md
+      - 05 Screenshot Standards: 00-editorial/05-screenshot-standards.md
+      - 06 Validation Framework: 00-editorial/06-validation-framework.md
+      - 07 Lab Framework: 00-editorial/07-lab-framework.md
+      - 08 Quiz Framework: 00-editorial/08-quiz-framework.md
+      - 09 Prompt Documentation: 00-editorial/09-prompt-documentation.md
+      - 10 Versioning and Review: 00-editorial/10-versioning-review.md
+      - 11 Glossary Standards: 00-editorial/11-glossary-standards.md
+      - 12 Contribution Guide: 00-editorial/12-contribution-guide.md
+  - Learning System:
+      - 01 Learning Roadmap: 01-learning-system/01-learning-roadmap.md
+      - 02 Learning Paths: 01-learning-system/02-learning-paths.md
+      - 03 Course Dashboard: 01-learning-system/03-course-dashboard.md
+      - 04 Capstone Projects: 01-learning-system/04-capstone-projects.md
+      - 05 Certification Roadmap: 01-learning-system/05-certification-roadmap.md
+      - 06 Study Planner: 01-learning-system/06-study-planner.md
+      - 07 Instructor Guide: 01-learning-system/07-instructor-guide.md
+      - 08 Student Guide: 01-learning-system/08-student-guide.md
+      - 09 Progress Tracker: 01-learning-system/09-progress-tracker.md
+      - 10 Skills Matrix: 01-learning-system/10-skills-matrix.md
+  - Curriculum Blueprint:
+      - 01 Course Map: 02-curriculum/01-course-map.md
+      - 02 Phase Breakdown: 02-curriculum/02-phase-breakdown.md
+      - 03 Chapter Roadmap: 02-curriculum/03-chapter-roadmap.md
+      - 04 Architecture Decision Records: 02-curriculum/04-architecture-decision-records.md
+      - 05 Failure Labs: 02-curriculum/05-failure-labs.md
+      - 06 Enterprise Mappings: 02-curriculum/06-enterprise-mappings.md
+      - 07 Tool Catalogue: 02-curriculum/07-tool-catalog.md
+      - 08 Diagram Catalogue: 02-curriculum/08-diagram-catalog.md
+      - 09 Capstone Progression: 02-curriculum/09-capstone-progression.md
+      - 10 Assessment Framework: 02-curriculum/10-assessment-framework.md
+  - Getting Started:
+      - Overview: getting-started/index.md
+      - 0.1 Chapter 01: getting-started/chapter-01.md
+      - 0.2 Chapter 02: getting-started/chapter-02.md
+      - Labs: getting-started/labs.md
+      - Quiz: getting-started/quiz.md
+      - Glossary: getting-started/glossary.md
+  - Phase 00 Build First SaaS:
+      - Overview: phase-00-build-first-saas/index.md
+      - 00.1 Chapter 01: phase-00-build-first-saas/chapter-01.md
+      - 00.2 Chapter 02: phase-00-build-first-saas/chapter-02.md
+      - Labs: phase-00-build-first-saas/labs.md
+      - Quiz: phase-00-build-first-saas/quiz.md
+      - Glossary: phase-00-build-first-saas/glossary.md
+  - Phase 01 Development:
+      - Overview: phase-01-development/index.md
+      - 01.1 Chapter 01: phase-01-development/chapter-01.md
+      - 01.2 Chapter 02: phase-01-development/chapter-02.md
+      - Labs: phase-01-development/labs.md
+      - Quiz: phase-01-development/quiz.md
+      - Glossary: phase-01-development/glossary.md
+  - Phase 02 Quality Engineering:
+      - Overview: phase-02-quality-engineering/index.md
+      - 02.1 Chapter 01: phase-02-quality-engineering/chapter-01.md
+      - 02.2 Chapter 02: phase-02-quality-engineering/chapter-02.md
+      - Labs: phase-02-quality-engineering/labs.md
+      - Quiz: phase-02-quality-engineering/quiz.md
+      - Glossary: phase-02-quality-engineering/glossary.md
+  - Phase 03 Security Engineering:
+      - Overview: phase-03-security-engineering/index.md
+      - 03.1 Chapter 01: phase-03-security-engineering/chapter-01.md
+      - 03.2 Chapter 02: phase-03-security-engineering/chapter-02.md
+      - Labs: phase-03-security-engineering/labs.md
+      - Quiz: phase-03-security-engineering/quiz.md
+      - Glossary: phase-03-security-engineering/glossary.md
+  - Phase 04 AI Engineering:
+      - Overview: phase-04-ai-engineering/index.md
+      - 04.1 Chapter 01: phase-04-ai-engineering/chapter-01.md
+      - 04.2 Chapter 02: phase-04-ai-engineering/chapter-02.md
+      - Labs: phase-04-ai-engineering/labs.md
+      - Quiz: phase-04-ai-engineering/quiz.md
+      - Glossary: phase-04-ai-engineering/glossary.md
+  - Phase 05 Production Operations:
+      - Overview: phase-05-production-operations/index.md
+      - 05.1 Chapter 01: phase-05-production-operations/chapter-01.md
+      - 05.2 Chapter 02: phase-05-production-operations/chapter-02.md
+      - Labs: phase-05-production-operations/labs.md
+      - Quiz: phase-05-production-operations/quiz.md
+      - Glossary: phase-05-production-operations/glossary.md
+  - Phase 06 Enterprise DevSecOps:
+      - Overview: phase-06-enterprise-devsecops/index.md
+      - 06.1 Chapter 01: phase-06-enterprise-devsecops/chapter-01.md
+      - 06.2 Chapter 02: phase-06-enterprise-devsecops/chapter-02.md
+      - Labs: phase-06-enterprise-devsecops/labs.md
+      - Quiz: phase-06-enterprise-devsecops/quiz.md
+      - Glossary: phase-06-enterprise-devsecops/glossary.md
+  - Appendix:
+      - Overview: appendix/index.md
+      - References: appendix/references.md
+      - Templates: appendix/templates.md
+      - Glossary: appendix/glossary.md
