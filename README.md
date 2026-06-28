@@ -42,8 +42,15 @@ When fully authored, the handbook will help learners understand how to:
 └── docs/
     ├── index.md
     ├── 00-editorial/
+
     ├── 01-learning-system/
     ├── 02-curriculum/
+
+
+    ├── 01-learning-system/
+
+
+
     ├── getting-started/
     ├── phase-00-build-first-saas/
     ├── phase-01-development/
@@ -72,6 +79,7 @@ The documentation site is designed for:
 Planned documentation milestones include:
 
 1. Use the editorial standards as the required baseline for all new chapters.
+
 2. Maintain the learning system as the planning layer for learner paths, progress evidence, and capstone outcomes.
 3. Maintain the curriculum blueprint as the master map for phases, chapters, tools, diagrams, assessments, and enterprise alignment.
 4. Define detailed chapter outlines for each phase.
@@ -85,6 +93,34 @@ Planned documentation milestones include:
 ## Contribution Guide
 
 The `docs/00-editorial/` section defines the mandatory publishing standards for future contributors, including editorial style, chapter structure, diagrams, screenshots, validation, labs, quizzes, prompts, versioning, glossary entries, and review workflow. The `docs/01-learning-system/` section defines learning paths, dashboards, capstones, certification levels, study plans, instructor guidance, student guidance, progress tracking, the skills matrix, and curriculum planning. The `docs/02-curriculum/` section defines the phase breakdown, chapter roadmap, ADR catalogue, failure labs, enterprise mappings, tool catalogue, diagram catalogue, capstone progression, and assessment framework.
+
+
+2. Maintain the learning system as the planning layer for learner paths, progress evidence, and capstone outcomes.
+3. Define detailed chapter outlines for each phase.
+4. Add learning objectives and estimated completion time per chapter.
+5. Add diagrams, system architecture references, and visual learning aids.
+6. Add guided labs and assessment rubrics.
+7. Add glossary and reference material across phases.
+8. Introduce versioned releases for cohorts, editions, or curriculum tracks.
+9. Add publishing automation and documentation quality checks.
+
+## Contribution Guide
+
+The `docs/00-editorial/` section defines the mandatory publishing standards for future contributors, including editorial style, chapter structure, diagrams, screenshots, validation, labs, quizzes, prompts, versioning, glossary entries, and review workflow. The `docs/01-learning-system/` section defines learning paths, dashboards, capstones, certification levels, study plans, instructor guidance, student guidance, progress tracking, and the skills matrix.
+
+2. Define detailed chapter outlines for each phase.
+3. Add learning objectives and estimated completion time per chapter.
+4. Add diagrams, system architecture references, and visual learning aids.
+5. Add guided labs and assessment rubrics.
+6. Add glossary and reference material across phases.
+7. Introduce versioned releases for cohorts, editions, or curriculum tracks.
+8. Add publishing automation and documentation quality checks.
+
+## Contribution Guide
+
+The `docs/00-editorial/` section defines the mandatory publishing standards for future contributors, including editorial style, chapter structure, diagrams, screenshots, validation, labs, quizzes, prompts, versioning, glossary entries, and review workflow.
+
+
 
 Contributors should follow these principles:
 
