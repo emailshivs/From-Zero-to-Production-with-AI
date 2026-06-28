@@ -111,6 +111,20 @@ nav:
       - 09 Progress Tracker: 01-learning-system/09-progress-tracker.md
       - 10 Skills Matrix: 01-learning-system/10-skills-matrix.md
 
+  - Curriculum Blueprint:
+      - 01 Course Map: 02-curriculum/01-course-map.md
+      - 02 Phase Breakdown: 02-curriculum/02-phase-breakdown.md
+      - 03 Chapter Roadmap: 02-curriculum/03-chapter-roadmap.md
+      - 04 Architecture Decision Records: 02-curriculum/04-architecture-decision-records.md
+      - 05 Failure Labs: 02-curriculum/05-failure-labs.md
+      - 06 Enterprise Mappings: 02-curriculum/06-enterprise-mappings.md
+      - 07 Tool Catalogue: 02-curriculum/07-tool-catalog.md
+      - 08 Diagram Catalogue: 02-curriculum/08-diagram-catalog.md
+      - 09 Capstone Progression: 02-curriculum/09-capstone-progression.md
+      - 10 Assessment Framework: 02-curriculum/10-assessment-framework.md
+
+
+
 
   - Getting Started:
       - Overview: getting-started/index.md
